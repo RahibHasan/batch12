@@ -30,3 +30,17 @@
 	<br>
 @endforeach
 <!-- loop	 -->
+
+
+
+<!-- loop	 -->
+@for($i=0;$i<10;$i++)
+	{{$i}}
+@endfor
+
+@foreach($b as $d=>$a)
+	<br>
+	{{$d}} And Name {{$a}}
+	<br>
+@endforeach
+<!-- loop	 -->
